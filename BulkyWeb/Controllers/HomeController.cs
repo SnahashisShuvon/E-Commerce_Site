@@ -16,7 +16,6 @@ namespace BulkyWeb.Controllers
         public IActionResult Index()
         {
             return View();
-            //cheking github repo!
         }
 
         public IActionResult Privacy()
