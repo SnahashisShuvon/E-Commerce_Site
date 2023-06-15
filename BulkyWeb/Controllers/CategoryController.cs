@@ -1,5 +1,5 @@
-﻿using BulkyWeb.Data;
-using BulkyWeb.Models;
+﻿using Bulky.DataAccess.Data;
+using Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkyWeb.Controllers
@@ -36,7 +36,7 @@ namespace BulkyWeb.Controllers
 
             return View();
         }
-        
+
         public IActionResult Edit(int id)
         {
             if (id == null || id == 0)
@@ -46,7 +46,7 @@ namespace BulkyWeb.Controllers
 
             var category = _context.Categories.Find(id);
 
-            if(category == null)
+            if (category == null)
             {
                 return NotFound();
             }
@@ -67,17 +67,17 @@ namespace BulkyWeb.Controllers
 
             return View();
         }
-        
+
         public IActionResult Delete(int id)
         {
-            if(id == null || id == 0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
 
             var category = _context.Categories.Find(id);
 
-            if(category == null)
+            if (category == null)
             {
                 return NotFound();
             }
@@ -89,7 +89,7 @@ namespace BulkyWeb.Controllers
         public IActionResult DeletePost(int id)
         {
             var category = _context.Categories.Find(id);
-            if(category == null)
+            if (category == null)
             {
                 return NotFound();
             }
