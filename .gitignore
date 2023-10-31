@@ -362,6 +362,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# This won't track appsettings.json anymore in git repository
 BulkyWeb/appsettings.json
 
 .vs
