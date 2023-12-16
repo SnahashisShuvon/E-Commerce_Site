@@ -19,5 +19,6 @@
         public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
         public const string PaymentStatusDelayedRejected = "Rejected";
 
+        public const string SessionCart = "SessionShoppingCart";
     }
 }
