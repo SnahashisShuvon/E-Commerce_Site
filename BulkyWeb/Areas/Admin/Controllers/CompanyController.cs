@@ -16,6 +16,8 @@ namespace BulkyWeb.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+
+
         public IActionResult Index()
         {
             var companyList = _unitOfWork.Company.GetAll().ToList();
