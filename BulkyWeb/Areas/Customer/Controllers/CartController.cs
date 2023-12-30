@@ -1,13 +1,13 @@
-﻿using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Models;
-using Bulky.Models.ViewModels;
-using Bulky.Utility;
+﻿using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Models;
+using ECommerceSite.Models.ViewModels;
+using ECommerceSite.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Stripe.Checkout;
 using System.Security.Claims;
 
-namespace BulkyWeb.Areas.Customer.Controllers
+namespace ECommerceSiteWeb.Areas.Customer.Controllers
 {
     [Area("Customer")]
     [Authorize]

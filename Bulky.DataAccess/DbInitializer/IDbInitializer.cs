@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bulky.DataAccess.DbInitializer
+namespace ECommerceSite.DataAccess.DbInitializer
 {
     public interface IDbInitializer
     {

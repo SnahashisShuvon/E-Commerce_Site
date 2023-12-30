@@ -1,9 +1,9 @@
-﻿using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Utility;
+﻿using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Utility;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace BulkyWeb.ViewComponents
+namespace ECommerceSiteWeb.ViewComponents
 {
     public class ShoppingCartViewComponent : ViewComponent
     {

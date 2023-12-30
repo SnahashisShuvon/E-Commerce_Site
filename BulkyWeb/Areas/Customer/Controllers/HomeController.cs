@@ -1,6 +1,6 @@
-﻿using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Models;
-using Bulky.Utility;
+﻿using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Models;
+using ECommerceSite.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Diagnostics;
 using System.Security.Claims;
 
-namespace BulkyWeb.Areas.Customer.Controllers
+namespace ECommerceSiteWeb.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

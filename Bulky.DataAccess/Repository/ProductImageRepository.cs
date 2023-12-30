@@ -1,13 +1,13 @@
-﻿using Bulky.DataAccess.Data;
-using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Models;
+﻿using ECommerceSite.DataAccess.Data;
+using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bulky.DataAccess.Repository
+namespace ECommerceSite.DataAccess.Repository
 {
     public class ProductImageRepository : Repository<ProductImage>, IProductImageRepository
     {

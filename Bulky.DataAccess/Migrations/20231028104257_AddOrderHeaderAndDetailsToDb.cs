@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Bulky.DataAccess.Migrations
+namespace ECommerceSite.DataAccess.Migrations
 {
     public partial class AddOrderHeaderAndDetailsToDb : Migration
     {

@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "BulkyWeb": {
+    "ECommerceSiteWeb": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

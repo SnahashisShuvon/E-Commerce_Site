@@ -1,16 +1,16 @@
-﻿using Bulky.DataAccess.Data;
-using Bulky.DataAccess.Repository;
-using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Models;
-using Bulky.Models.ViewModels;
-using Bulky.Utility;
+﻿using ECommerceSite.DataAccess.Data;
+using ECommerceSite.DataAccess.Repository;
+using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Models;
+using ECommerceSite.Models.ViewModels;
+using ECommerceSite.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyWeb.Areas.Admin.Controllers
+namespace ECommerceSiteWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = SD.Role_Admin)]

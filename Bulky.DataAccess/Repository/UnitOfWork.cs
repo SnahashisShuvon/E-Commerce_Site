@@ -1,7 +1,7 @@
-﻿using Bulky.DataAccess.Data;
-using Bulky.DataAccess.Repository.IRepository;
+﻿using ECommerceSite.DataAccess.Data;
+using ECommerceSite.DataAccess.Repository.IRepository;
 
-namespace Bulky.DataAccess.Repository
+namespace ECommerceSite.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

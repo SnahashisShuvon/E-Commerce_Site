@@ -1,4 +1,4 @@
-﻿namespace Bulky.Utility
+﻿namespace ECommerceSite.Utility
 {
     public static class SD
     {

@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bulky.DataAccess\Bulky.DataAccess.csproj" />
+    <ProjectReference Include="..\Bulky.DataAccess\ECommerceSite.DataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>

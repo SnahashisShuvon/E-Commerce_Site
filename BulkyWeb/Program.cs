@@ -1,8 +1,8 @@
-using Bulky.DataAccess.Data;
-using Bulky.DataAccess.DbInitializer;
-using Bulky.DataAccess.Repository;
-using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Utility;
+using ECommerceSite.DataAccess.Data;
+using ECommerceSite.DataAccess.DbInitializer;
+using ECommerceSite.DataAccess.Repository;
+using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Utility;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;

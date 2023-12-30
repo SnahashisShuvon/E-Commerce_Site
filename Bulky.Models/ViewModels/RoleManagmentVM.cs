@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Bulky.Models.ViewModels
+namespace ECommerceSite.Models.ViewModels
 {
     public class RoleManagmentVM
     {

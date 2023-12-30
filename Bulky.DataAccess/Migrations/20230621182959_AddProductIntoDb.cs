@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Bulky.DataAccess.Migrations
+namespace ECommerceSite.DataAccess.Migrations
 {
     public partial class AddProductIntoDb : Migration
     {

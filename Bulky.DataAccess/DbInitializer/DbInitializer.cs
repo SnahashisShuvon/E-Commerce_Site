@@ -1,6 +1,6 @@
-﻿using Bulky.DataAccess.Data;
-using Bulky.Models;
-using Bulky.Utility;
+﻿using ECommerceSite.DataAccess.Data;
+using ECommerceSite.Models;
+using ECommerceSite.Utility;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bulky.DataAccess.DbInitializer
+namespace ECommerceSite.DataAccess.DbInitializer
 {
     public class DbInitializer : IDbInitializer
     {

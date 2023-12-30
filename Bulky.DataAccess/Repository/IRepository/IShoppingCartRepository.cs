@@ -1,6 +1,6 @@
-﻿using Bulky.Models;
+﻿using ECommerceSite.Models;
 
-namespace Bulky.DataAccess.Repository.IRepository
+namespace ECommerceSite.DataAccess.Repository.IRepository
 {
     public interface IShoppingCartRepository : IRepository<ShoppingCart>
     {

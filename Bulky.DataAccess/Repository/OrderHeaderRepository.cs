@@ -1,8 +1,8 @@
-﻿using Bulky.DataAccess.Data;
-using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Models;
+﻿using ECommerceSite.DataAccess.Data;
+using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Models;
 
-namespace Bulky.DataAccess.Repository
+namespace ECommerceSite.DataAccess.Repository
 {
     public class OrderHeaderRepository : Repository<OrderHeader>, IOrderHeaderRepository
     {

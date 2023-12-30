@@ -1,4 +1,4 @@
-﻿namespace Bulky.DataAccess.Repository.IRepository
+﻿namespace ECommerceSite.DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork
     {

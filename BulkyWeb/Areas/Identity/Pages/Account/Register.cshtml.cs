@@ -10,10 +10,10 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
-using Bulky.DataAccess.Data;
-using Bulky.DataAccess.Repository.IRepository;
-using Bulky.Models;
-using Bulky.Utility;
+using ECommerceSite.DataAccess.Data;
+using ECommerceSite.DataAccess.Repository.IRepository;
+using ECommerceSite.Models;
+using ECommerceSite.Utility;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -26,7 +26,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace BulkyWeb.Areas.Identity.Pages.Account
+namespace ECommerceSiteWeb.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {

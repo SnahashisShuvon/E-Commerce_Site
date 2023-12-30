@@ -17,10 +17,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using Bulky.Models;
-using Bulky.Utility;
+using ECommerceSite.Models;
+using ECommerceSite.Utility;
 
-namespace BulkyWeb.Areas.Identity.Pages.Account
+namespace ECommerceSiteWeb.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class ExternalLoginModel : PageModel
